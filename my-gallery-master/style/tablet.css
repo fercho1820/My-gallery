@@ -1,0 +1,50 @@
+.section-photos {
+    width: 620px;
+    margin: 70px auto 0;
+}
+
+.section-photos figure .photo-uno-dos img:nth-child(1) {
+    width: 200px;
+    height: 150px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.section-photos figure .photo-uno-dos img:nth-child(2) {
+    width: 410px;
+    height: 150px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-left: auto;
+}
+
+.section-photos figure .las-tres .photo-tres {
+    width: 410px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+.section-photos figure .las-tres .photo-cuatro {
+    width: 200px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+.section-photos figure .las-tres .photo-cinco {
+    width: 200px;
+    height: 150px;
+    border-radius: 8px;
+    margin-left: auto;
+}
+
+.section-photos figure .photo-seis {
+    width: 200px;
+    height: 301px;
+    border-radius: 8px;
+    margin-top: 12px;
+    margin-left: auto;
+}
+
+footer {
+    margin-bottom: -200px;
+}

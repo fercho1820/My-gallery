@@ -1,0 +1,212 @@
+:root {
+    --background-color-body: #ffffff;
+    --background-color-secondary: #E5E5E5;
+    --color-title: #4E5150;
+    --color-secondary: #BDBDBD;
+    --color-lugar: #a9a9a9;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--background-color-body);
+}
+
+main {
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding-top: 40px;
+}
+
+img {
+    display: block;
+    object-fit: cover;
+    
+}
+
+main .photo-perfile {
+    width: 200px; 
+    height: auto;
+    margin: 0 auto 24px;
+    
+}
+
+main .photo-perfile img {
+    width: 150px;
+    margin: 0 auto 24px;
+    border-radius: 24px;
+    object-fit: cover;
+}
+
+main .photo-perfile h1 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.7rem;
+    color: var(--color-title);
+}
+
+main .photo-perfile h1 {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+main .photo-perfile p {
+    font-size: 1rem;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.2rem;
+    color: var(--color-lugar);
+}
+
+main .photo-perfile p {
+    text-align: center;
+}
+
+main .info {
+    width: 95%;
+    height: 65px;
+    margin: 0 auto; 
+}
+
+main .info .content-info {
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; 
+}
+
+main .info .content-info div {
+    width: 30%;
+    border-radius: 12px;
+    background-color: var(--background-color-secondary);
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+
+}
+
+main .info .content-info div p:nth-child(1) {
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.5rem;
+    color: var(--color-title);
+}
+
+main .info .content-info div p:nth-child(1) {
+    margin-bottom: 4px;
+} 
+
+main .info .content-info div p:nth-child(2) {
+    font-size: 1.2rem; 
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.5rem;
+}
+
+.section-photos {
+    width: 95%;
+    width: 310px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.section-photos figure {
+    width: 100%;
+    height: auto;
+
+}
+
+.section-photos figure .photo-uno-dos {
+    display: flex;
+}
+
+.section-photos figure .photo-uno-dos img:nth-child(1) {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    object-fit: cover;
+} 
+
+.section-photos figure .photo-uno-dos img:nth-child(2) {
+    width: 200px;
+    height: 100px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-left: auto;
+}
+
+.section-photos figure .las-cuatro {
+    display: flex;
+}
+
+.section-photos figure .las-tres div {
+    display: flex;
+    margin-top: 6px;
+
+}
+
+.section-photos figure .las-tres .photo-tres {
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 6px;
+}
+
+.section-photos figure .las-tres .photo-cuatro {
+    width: 97px;
+    border-radius: 8px;
+}
+.section-photos figure .las-tres .photo-cinco {
+    width: 97px;
+    border-radius: 8px;
+    margin-left: auto;
+}
+
+.section-photos figure .photo-seis {
+    width: 100px;
+    height: 205px;
+    border-radius: 8px;
+    margin-top: 6px;
+    margin-left: auto;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    min-width: 320px;
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 14px;
+}
+
+footer p {
+    font-size: 1.2rem; 
+    font-weight: 500;
+    font-style: normal; 
+    line-height: 1.5rem;
+    color: var(--color-title);
+}
+
+footer p a {
+    color: var(--color-secondary);
+}
